@@ -3,7 +3,6 @@ import java.awt.event.*;
 import javax.swing.*;
 
 
-
 public class GameMain extends JPanel implements MouseListener{
 	//Constants for game 
 	// number of ROWS by COLS cell constants 
@@ -26,8 +25,8 @@ public class GameMain extends JPanel implements MouseListener{
 	// the game board 
 	private Board board;
 	 	 
-	//TODO: create the enumeration for the variable below (GameState currentState)
-	//HINT all of the states you require are shown in the code within GameMain
+	//NOTE: created the enumeration for the variable below (GameState currentState)
+	//HINT: all of the states required -- refer to the code section "set status bar message" within GameMain
 	private GameState currentState; 
 	
 	// the current player
@@ -64,7 +63,7 @@ public class GameMain extends JPanel implements MouseListener{
 	}
 	
 	public static void main(String[] args) {
-		    // Run GUI code in Event Dispatch thread for thread safety.
+		// Run GUI code in Event Dispatch thread for thread safety.
 		javax.swing.SwingUtilities.invokeLater(new Runnable() {
 	         public void run() {
 				//create a main window to contain the panel
