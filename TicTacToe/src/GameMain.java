@@ -27,7 +27,7 @@ public class GameMain extends JPanel {
 	// the game board 
 	private Board board;
 	 	 
-	//NOTE: created the enumeration for the variable below (GameState currentState)
+	//TODO: created the enumeration for the variable below (GameState currentState)
 	//NOTE: for all of the states required -- refer to the code section "set status bar message" within GameMain
 	private GameState currentState; 
 	
